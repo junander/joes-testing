@@ -39,7 +39,7 @@ if ($postID == "49" || $parent == "49") {
         'container_id' => 'about-menu',
         'menu_class' => 'sidbar-nav'
     );
-    echo '<h2 class="sidebar-title">About</h2>';
+    echo '<h2 class="sidebar">About Stuff</h2>';
     wp_nav_menu($args);
     echo '</div>';
 }
